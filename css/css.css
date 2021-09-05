@@ -181,5 +181,33 @@ button {
     font-weight: bold !important;
     font-size: 14pt !important;
     box-shadow: 4px 4px 8px rgba(13, 39, 80, 0.25), -4px -4px 8px white;
+}
 
+.btn-work {
+    color:#0b254e !important;
+}
+
+.btn-equal{
+    height: 120px !important;
+    color:#0b254e !important;
+    
+}
+
+button:focus {
+    cursor: pointer;
+    outline: none !important;
+    border: none !important;
+}
+
+button:active {
+    box-shadow:
+    -3px -3px 7px #a0a0a032, 
+    3px 3px 5px rgba(94, 104, 121, 0.417);
+    outline: none !important;
+    border: none !important;
+				 
+}
+
+button:hover{
+    color: #696a6a !important;
 }
