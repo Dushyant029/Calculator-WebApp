@@ -211,3 +211,35 @@ button:active {
 button:hover{
     color: #696a6a !important;
 }
+
+.home {
+    margin-top:382px;
+    margin-left:72px ;
+    font-size: 30px;
+    cursor: pointer;
+    color: #0b254e;
+}
+
+.menu {
+    margin-top: 392px;
+    margin-left:-275px;
+    font-size: 20px;
+    color: #0b254e;
+    cursor: pointer;
+}
+
+.back {
+    margin-top: 392px;
+    margin-left: 75px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #0b254e;
+}
+
+.footer {
+    margin-top: 62px;
+    margin-left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0b254e;
+}
