@@ -19,7 +19,12 @@
                 <div class="camera"></div>
             </div>
             <div class="time" id="time">
-                
+                <script>
+                    var timer=document.getElementById('time').innerHTML;
+                    var today=new Date();
+                    var time=today.getHours()+":"+today.getMinutes();
+                        timer=document.write(time)
+                </script>
             </div>
             <div class="battery"> 
                 <i class="fa fa-battery-full"></i>
